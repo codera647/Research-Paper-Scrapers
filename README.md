@@ -24,6 +24,6 @@ This repository contains Python scripts designed to scrape research paper titles
 ## Acknowledgements
 
 - **Contributors**: Special thanks to all contributors specially **@ziadcoolio** who helped in the development and improvement of this project.
-- **Open-Source Projects**: This project was made possible by various open-source tools and libraries, including [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/), [Requests](https://requests.readthedocs.io/), and [Selenium](https://www.selenium.dev/).
+- **Open-Source Projects**: This project was made possible by various open-source tools and libraries, including [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/), [Requests](https://requests.readthedocs.io/), [Selenium](https://www.selenium.dev/), [Scholarly](https://github.com/scholarly-python-package/scholarly) and [Scopus Search Api](https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl).
 - **Documentation Resources**: Thanks to the authors of various documentation and tutorials that guided the development process.
 
