@@ -8,16 +8,16 @@ This repository contains Python scripts designed to scrape research paper titles
 
 ## Websites
 
-1. **Econbiz:**
+1. **<u>Econbiz:</u>** <br>
  [EconBiz](https://www.econbiz.de) is a service of the ZBW - Leibniz Information Centre for Economics. That support you with your search for scholarly information. Thet don't specifically provide any *Api Endpoints* to extract data so I use [Selenium](https://www.selenium.dev/documentation/) to scrap research papers and articles.
 
-2. **Google Scholar:**
+2. **<u>Google Scholar:</u>** <br>
   [Google Scholar](https://scholar.google.com/schhp?hl=en) provides a simple way to broadly search for scholarly literature. Although there is no official *Google Scholar Api* but there are third-party solutions like [Scholarly](https://github.com/scholarly-python-package/scholarly) Python package which supports profile, author, cite and organic results (search_pubs seems to be the method to get organic results, although method name confuses me).
 
-3. **Scopus:**
+3. **<u>Scopus:</u>** <br>
   [Scopus](https://www.elsevier.com/products/scopus) is a database that offers a comprehensive overview of global interdisciplinary scientific information, covering the areas of science, technology, medicine, social sciences and the arts and humanity. There is a solution named [Scopus Search Api](https://dev.elsevier.com/documentation/ScopusSearchAPI.wadl) provided by [Elsevier Developer Portal](https://dev.elsevier.com) that assist you to get access to scopus open-source database.
 
-4. **Zendy:**
+4. **<u>Zendy:</u>** <br>
   [Zendy](https://zendy.io) offers a blended discovery experience where you can read and download open access and paywalled research from the world’s leading publishers on one platform. Using zendy api we can access variety of articles and research papers.
 
 
