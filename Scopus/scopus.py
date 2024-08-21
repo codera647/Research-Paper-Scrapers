@@ -27,7 +27,7 @@ def total_results():
         'query': query
     }
     headers = {
-                "X-ELS-APIKey": "8d55ace239d6fe4ea6c451049b2ce270",
+                "X-ELS-APIKey": "Key",
                 "Content-Type": "application/json"
     }
     response = requests.get(url,headers=headers,params=params)
