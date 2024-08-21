@@ -4,7 +4,7 @@ import csv
 from random import randint
 import time
 
-SCRAPEOPS_API_KEY = "559edec8-44f0-47f1-9736-3f8b9a66bab7"
+SCRAPEOPS_API_KEY = "api_key"
 
 def get_user_agent_list():
   response = requests.get('http://headers.scrapeops.io/v1/user-agents?api_key=' + SCRAPEOPS_API_KEY)
