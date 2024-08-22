@@ -23,3 +23,19 @@ Install the required Python packages using `pip`:
 
 ```bash
 pip install selenium webdriver-manager pandas
+```
+## Usage
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/econbiz-web-scraper.git
+cd econbiz-web-scraper
+```
+
+### Run the Script
+
+Start the scraping process by running the script:
+
+```bash
+python scraper.py
