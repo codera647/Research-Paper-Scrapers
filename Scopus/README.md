@@ -26,8 +26,8 @@ pip install requests
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/scopus-web-scraper.git
-   cd scopus-web-scraper
+   git clone https://github.com/codera647/Research-Paper-Scraper/Scopus.git
+   cd Scopus
    ```
 2. **Set Up API Keys**
 
@@ -40,11 +40,11 @@ pip install requests
 Start the extraction process by running the script:
 
 ```bash
-python scraper.py
+python scopus.py
 ```
 ## File Structure
 
-- `scraper.py`: The main script that handles the web scraping process.
+- `scopus.py`: The main script that handles the web scraping process.
 - `scopus_results.csv`: The output file where the extracted titles are saved.
 - `extraction_log.txt`: The log file that records the progress of the extraction process.
 
