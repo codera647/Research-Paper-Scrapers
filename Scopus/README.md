@@ -61,11 +61,7 @@ The script includes basic error handling for issues such as:
 
 - **API Request Failures**: Logs any issues encountered during API requests.
 - **File Handling**: The script ensures that titles are properly saved to the CSV file.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+  
 ## Contributing
 
 Feel free to submit issues or pull requests if you have suggestions for improvements or find any bugs.
