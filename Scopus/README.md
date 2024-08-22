@@ -31,7 +31,7 @@ pip install requests
    ```
 2. **Set Up API Keys**
 
-1. Replace `SCRAPEOPS_API_KEY` with your ScrapeOps API key in the `get_user_agent_list` function.
+    1. Replace `SCRAPEOPS_API_KEY` with your ScrapeOps API key in the `get_user_agent_list` function.
 
-2. Replace `"X-ELS-APIKey"` in the `headers` dictionary with your Elsevier Scopus API key.
+    2. Replace `"X-ELS-APIKey"` in the `headers` dictionary with your Elsevier Scopus API key.
 
