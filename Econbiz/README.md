@@ -39,3 +39,36 @@ Start the scraping process by running the script:
 
 ```bash
 python scraper.py
+
+```
+
+### Output
+The extracted titles will be saved in a file named `econbiz_titles.csv`. If the file already exists, the script will append new titles to it, avoiding duplicates.
+
+### File Structure
+- `scraper.py`: The main script that handles the web scraping process.
+- `econbiz_titles.csv`: The output file where the extracted titles are saved (generated after the first run).
+
+### Code Overview
+- **User-Agent Randomization**: The script randomly selects a user-agent string from a predefined list to mimic different browser profiles.
+- **Navigation**: The script navigates through the search results pages by clicking the "Next" button, until it reaches the specified number of pages.
+- **Data Extraction**: The script extracts the title of each article on the current page.
+- **Data Storage**: The titles are stored in a CSV file. If the file already exists, the script checks for duplicates and appends only new titles.
+
+### Dependencies
+- **Selenium**: Used for automating the web browser.
+- **webdriver-manager**: Automatically manages the ChromeDriver binaries.
+- **pandas**: Used for handling and manipulating CSV files.
+
+### Error Handling
+The script includes basic error handling for issues like:
+
+- **Navigation Failures**: If the script fails to navigate to the next page, it will print an error message and stop.
+- **File Handling**: The script checks if the CSV file exists before appending new data, ensuring no data is lost.
+
+### Contributing
+Feel free to submit issues or pull requests if you have suggestions for improvements or find any bugs.
+
+### Contact
+For any questions or inquiries, please contact `codera647@gmai.com`.
+
