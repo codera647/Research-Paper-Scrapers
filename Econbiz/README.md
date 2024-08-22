@@ -29,8 +29,8 @@ pip install selenium webdriver-manager pandas
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/econbiz-web-scraper.git
-cd econbiz-web-scraper
+git clone https://github.com/codera647/Research-Paper-Scraper/Econbiz/scraper.git
+cd scraper
 ```
 
 ### Run the Script
